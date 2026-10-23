@@ -96,7 +96,7 @@ export default function Nabvar() {
         className={`fixed top-0 right-0 z-50
     transition-all duration-200
     ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
-    bg-[#0F0F0F] w-80 min-h-screen
+    bg-[#0F0F0F] w-60 min-h-screen
     border-l border-l-gray-500 border-t border-t-gray-500`}
       >
         <div className="m-3 p-2 flex items-center justify-between text-xl">
