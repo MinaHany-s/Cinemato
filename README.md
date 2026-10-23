@@ -1,22 +1,23 @@
-# Cinemato 🎬
+# 🎬 Cinemato
 
-A movie and TV series discovery app built with React and TypeScript using the TMDB API.
+A responsive movie and TV series discovery app built with React, TypeScript, and the TMDB API.
 
-## Live Demo
+### 🌐 Live Demo
 
 [Visit Cinemato](https://cinemato-five.vercel.app/)
 
-## Features
+### ✨ Features
 
-- Browse movies and TV series
-- Search for movies and TV shows
-- View detailed information about each title
-- Watch available trailers
-- Add and remove favorites
-- Save favorites using Local Storage
-- Responsive design for different screen sizes
+- Browse movies and TV series.
+- Search for movies and TV shows.
+- Explore trending, popular, and top-rated content.
+- View detailed information about movies and series.
+- Watch available trailers.
+- Add and remove favorite titles.
+- Persist favorites using Local Storage.
+- Responsive design for different screen sizes.
 
-## Tech Stack
+### 🛠️ Tech Stack
 
 - React
 - TypeScript
@@ -26,44 +27,44 @@ A movie and TV series discovery app built with React and TypeScript using the TM
 - TMDB API
 - Vite
 
-## Getting Started
+### 🚀 Getting Started
 
-Clone the repository:
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/MinaHany-s/Cinemato.git
-```
-
-Navigate to the project directory:
-
-```bash
 cd Cinemato
 ```
 
-Install dependencies:
+**2. Install dependencies**
 
 ```bash
 npm install
 ```
 
-Create a `.env` file in the root directory and add your TMDB API token:
+**3. Configure environment variables**
+
+Create a `.env` file in the project root:
 
 ```env
-VITE_TMDB_TOKEN=your_tmdb_token
+VITE_TMDB_TOKEN=your_tmdb_api_read_access_token
 ```
 
-Start the development server:
+Replace the placeholder with your TMDB API Read Access Token.
+
+**4. Start the development server**
 
 ```bash
 npm run dev
 ```
 
-## API
+### 🎥 API
 
-Movie and TV show data is provided by [The Movie Database (TMDB)](https://www.themoviedb.org/).
+Movie and TV series data is provided by [The Movie Database (TMDB)](https://www.themoviedb.org/).
 
-## Author
+### 👨‍💻 Author
 
 **Mina Hany**
 
-[GitHub Profile](https://github.com/MinaHany-s)
+- [GitHub](https://github.com/MinaHany-s)
+- [Live Project](https://cinemato-five.vercel.app/)
