@@ -62,7 +62,7 @@ export default function SearchBar({
             setQuery(value);
             setIsSearching(value.trim().length > 0);
           }}
-          placeholder="Search movies"
+          placeholder="Search..."
           className="w-full rounded-xl border border-neutral-700/70 bg-[#161616] py-3.5 pl-4 pr-24 text-sm text-white outline-none placeholder:text-neutral-500 focus:border-neutral-500"
         />
 
