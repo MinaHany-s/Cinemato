@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Pacifico&family=Righteous&family=Rubik+Storm&display=swap");
+@import "tailwindcss";
+
+.logo {
+  font-family: "Rubik Storm", system-ui;
+}
+
+.carousel__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #666;
+}
+
+.carousel__dot--selected {
+  background-color: white;
+  width: 20px;
+}
