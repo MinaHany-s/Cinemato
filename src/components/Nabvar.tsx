@@ -33,7 +33,7 @@ export default function Nabvar() {
           ${scrolled ? "bg-black/70 backdrop-blur-sm shadow-lg" : "bg-black"}
     `}
     >
-      <div className="mx-10 py-3 flex items-center justify-between">
+      <div className="md:mx-10 mx-3 py-3 flex items-center justify-between">
         <div className="flex gap-4 items-center">
           <h1 className="logo text-2xl ">Cinemato</h1>
           <div className="flex gap-2 max-md:hidden">
@@ -68,8 +68,9 @@ export default function Nabvar() {
         </div>
         <div className="flex gap-4 items-center">
           <Link
-          to={'/favorites'}
-           className="cursor-pointer bg-[#1E1E1E] p-2 rounded-full">
+            to={"/favorites"}
+            className="cursor-pointer bg-[#1E1E1E] p-2 rounded-full"
+          >
             <CiHeart className="text-xl" />
           </Link>
 
@@ -84,12 +85,19 @@ export default function Nabvar() {
           </div>
         </div>
       </div>
+      {isMenuOpen && (
+        <div
+          onClick={() => setIsMenuOpen(false)}
+          className="fixed inset-0 bg-black/50"
+        />
+      )}
       {/* Menu bar */}
       <div
-        className={`fixed top-0 right-0
-      transition-all duration-200
-        ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
-         bg-[#0F0F0F] w-80 min-h-screen border-l border-l-gray-500 border-t border-t-gray-500`}
+        className={`fixed top-0 right-0 z-50
+    transition-all duration-200
+    ${isMenuOpen ? "translate-x-0" : "translate-x-full"}
+    bg-[#0F0F0F] w-80 min-h-screen
+    border-l border-l-gray-500 border-t border-t-gray-500`}
       >
         <div className="m-3 p-2 flex items-center justify-between text-xl">
           <h2 className=" font-semibold">Menu</h2>

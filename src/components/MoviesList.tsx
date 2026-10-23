@@ -10,7 +10,7 @@ type MoviesListProps = {
 };
 export default function MoviesList({ list, type }: MoviesListProps) {
   return (
-    <div className=" m-10 grid grid-cols-3 md:grid-cols-6 md:gap-3 gap-1 ">
+    <div className=" md:m-10 m-2  grid grid-cols-3 md:grid-cols-6 md:gap-3 gap-1 ">
       {list.map((d) => {
         const mediaType = type ?? d.media_type ?? "movie";
         return (

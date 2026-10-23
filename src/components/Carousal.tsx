@@ -39,7 +39,7 @@ export default function Carousal({ trending, carousalLoading }: CarousalProps) {
     );
   }
   return (
-    <div className="m-10 group">
+    <div className="md:m-10 m-2 group">
       <CarouselProvider
         infinite={true}
         naturalSlideWidth={2.8}

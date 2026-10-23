@@ -39,7 +39,7 @@ export default function Movies() {
 
 
   return (
-    <div className="m-9" id="movies">
+    <div className="md:m-9 m-2 pt-4" id="movies">
       <div className=" flex items-center justify-between">
         <div className=" flex items-center gap-3 justify-center max-md:flex-col">
           <h2 className="text-2xl font-bold text-white">Movies</h2>
