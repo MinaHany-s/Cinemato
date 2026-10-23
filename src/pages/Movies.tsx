@@ -39,6 +39,7 @@ export default function Movies() {
 
 
   return (
+
     <div className="md:m-9 m-2 pt-4" id="movies">
       <div className=" flex items-center justify-between">
         <div className=" flex items-center gap-3 justify-center max-md:flex-col">
@@ -54,7 +55,7 @@ export default function Movies() {
               setIsNowPlaying(false);
               setCurrentPage(1);
             }}
-            className={`rounded-lg px-4 py-2 text-sm font-medium transition-all duration-200 active:scale-95 ${
+            className={`rounded-lg px-2 py-2 text-sm font-medium transition-all duration-200 active:scale-95 ${
               isTopRated
                 ? "bg-[#2E2E2E] text-white hover:bg-[#3A3A3A]"
                 : "text-gray-400 hover:bg-[#2E2E2E] hover:text-white"
@@ -70,7 +71,7 @@ export default function Movies() {
               setIsNowPlaying(false);
               setCurrentPage(1);
             }}
-            className={`rounded-lg px-4 py-2 text-sm font-medium transition-all duration-200 active:scale-95 ${
+            className={`rounded-lg px-2 py-2 text-sm font-medium transition-all duration-200 active:scale-95 ${
               isTrending
                 ? "bg-[#2E2E2E] text-white hover:bg-[#3A3A3A]"
                 : "text-gray-400 hover:bg-[#2E2E2E] hover:text-white"
@@ -86,7 +87,7 @@ export default function Movies() {
               setIsNowPlaying(false);
               setCurrentPage(1);
             }}
-            className={`rounded-lg px-4 py-2 text-sm font-medium transition-all duration-200 active:scale-95 ${
+            className={`rounded-lg px-2 py-2 text-sm font-medium transition-all duration-200 active:scale-95 ${
               isPopular
                 ? "bg-[#2E2E2E] text-white hover:bg-[#3A3A3A]"
                 : "text-gray-400 hover:bg-[#2E2E2E] hover:text-white"
@@ -102,7 +103,7 @@ export default function Movies() {
               setIsNowPlaying(true);
               setCurrentPage(1);
             }}
-            className={`rounded-lg px-4 py-2 text-sm font-medium transition-all duration-200 active:scale-95 ${
+            className={`rounded-lg px-2 py-2 text-sm font-medium transition-all duration-200 active:scale-95 ${
               isNowPlaying
                 ? "bg-[#2E2E2E] text-white hover:bg-[#3A3A3A]"
                 : "text-gray-400 hover:bg-[#2E2E2E] hover:text-white"
